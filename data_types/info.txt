@@ -1,0 +1,41 @@
+Built-in Data Types (often analogous to "primitive" in other languages):
+These are the fundamental, atomic data types that store single values. They are typically immutable, meaning their value cannot be changed after creation. 
+Integers (int): Whole numbers, positive or negative.
+Python
+
+    age = 30
+Floats (float): Numbers with a decimal point.
+Python
+
+    price = 19.99
+Strings (str): Sequences of characters, enclosed in single or double quotes.
+Python
+
+    name = "Alice"
+Booleans (bool): Represent truth values, either True or False.
+Python
+
+    is_active = True
+Built-in Collection Data Types (often analogous to "non-primitive" in other languages):
+These data types are designed to store collections of values or objects. They offer more complex structures and often exhibit mutability, allowing their contents to be modified.
+Lists (list): Ordered, mutable collections of items. Can contain elements of different data types.
+Python
+
+    numbers = [1, 2, 3, 4]
+    fruits = ["apple", "banana", "cherry"]
+Tuples (tuple): Ordered, immutable collections of items. Similar to lists but cannot be modified after creation.
+Python
+
+    coordinates = (10, 20)
+Dictionaries (dict): Unordered collections of key-value pairs. Keys must be unique and immutable.
+Python
+
+    person = {"name": "Bob", "age": 25}
+Sets (set): Unordered collections of unique items. Elements must be immutable.
+Python
+
+    unique_numbers = {1, 2, 3, 2, 1} # Will result in {1, 2, 3}
+Key Differences:
+Single Value vs. Collection: Built-in data types store single values, while collection data types store multiple values.
+Mutability: Many built-in data types (like integers, floats, strings, booleans, and tuples) are immutable, while collection data types like lists, dictionaries, and sets are mutable.
+Complexity: Built-in data types are simpler, while collection data types offer more complex ways to organize and access data.
